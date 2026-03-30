@@ -1,0 +1,111 @@
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-page {
+    height: 100vh;
+    background: linear-gradient(to right, #0d6efd, #6610f2);
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.about-section {
+    padding: 100px 0;
+    background: #f8f9fa;
+}
+
+.about-img {
+    max-width: 250px;
+    border: 5px solid #fff;
+}
+
+.progress {
+    height: 25px;
+    border-radius: 20px;
+}
+
+.progress-bar {
+    border-radius: 20px;
+}
+
+.contact-section {
+    padding: 100px 0;
+    background: linear-gradient(to right, #0d6efd, #6610f2);
+}
+
+.contact-section h2,
+.contact-section p {
+    color: white;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-img-top {
+    height: 200px;       
+    object-fit: cover; 
+}
+
+.form-control {
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.btn-primary {
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: 500;
+}
+
+.hov-brand {
+    transition: all 0.7s;
+}
+
+.hov-brand:hover {
+    scale: 1.1;
+}
+
+.hov-name {
+    transition: all 0.7s;
+}
+
+.hov-name:hover {
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.hov-lead {
+    transition: all 0.7s;
+}
+
+.hov-lead:hover {
+    font-weight: bold;
+}
+
+.hov-btn {
+    transition: all 0.7s;
+}
+
+.hov-btn:hover {
+    scale: 1.1;
+    color: #0d6efd;
+}
+
+.hov-card {
+    transition: all 0.7s;
+}
+
+.hov-card:hover {
+    scale: 1.01;
+    transform: translateY(5px);
+}
